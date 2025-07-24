@@ -122,9 +122,11 @@ window.addEventListener("load", function() {
 
        // section alert-----
 
+  
   (function () {
-      if (window.innerWidth < 1024) {
-        document.getElementById("mobileBlocker").style.display = "block";
-        alert("Please open desktop version only");
-      }
-    })();
+    if (window.innerWidth < 789) {
+      document.getElementById("main-content").style.display = "none";
+      document.getElementById("mobile-blocker").style.display = "flex";
+      alert("Please open desktop version");
+    }
+  })();
