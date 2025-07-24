@@ -5,7 +5,7 @@
 }
 
 
-html{
+html, body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -17,6 +17,8 @@ html{
   padding: 0;
   box-sizing: border-box;
   font-family: "Tornado"; 
+  overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
