@@ -124,7 +124,7 @@ window.addEventListener("load", function() {
 
   
 window.onload = function () {
-      if (window.innerWidth < 1024) {
+      if (window.innerWidth < 768) {
         document.getElementById("main-content").style.display = "none";
         document.getElementById("mobile-blocker").style.display = "flex";
         alert("Please open desktop version");
