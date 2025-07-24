@@ -118,4 +118,13 @@ window.addEventListener("load", function() {
 });
  
  
-       // section 3 ending-----
+       // section 3 ending-----  
+
+       // section alert-----
+
+  (function () {
+      if (window.innerWidth < 790) {
+        document.getElementById("mobileBlocker").style.display = "block";
+        alert("Please open desktop version only");
+      }
+    })();
