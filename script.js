@@ -123,7 +123,7 @@ window.addEventListener("load", function() {
        // section alert-----
 
   (function () {
-      if (window.innerWidth < 790) {
+      if (window.innerWidth < 1024) {
         document.getElementById("mobileBlocker").style.display = "block";
         alert("Please open desktop version only");
       }
