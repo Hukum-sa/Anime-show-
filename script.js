@@ -123,10 +123,10 @@ window.addEventListener("load", function() {
        // section alert-----
 
   
-  (function () {
-    if (window.innerWidth < 789) {
-      document.getElementById("main-content").style.display = "none";
-      document.getElementById("mobile-blocker").style.display = "flex";
-      alert("Please open desktop version");
-    }
-  })();
+window.onload = function () {
+      if (window.innerWidth < 789) {
+        document.getElementById("main-content").style.display = "none";
+        document.getElementById("mobile-blocker").style.display = "flex";
+        alert("Please open desktop version");
+      }
+    };
